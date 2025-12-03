@@ -5,7 +5,7 @@ pipeline{
 			steps{
 				echo "Cloning repo"
 				git url:"https://github.com/jyothi3025/devopsEXT.git",
-				branch:'master'
+				branch:'main'
 			}
 		}
 		stage('Build'){
