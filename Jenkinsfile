@@ -4,7 +4,7 @@ pipeline{
 		stage('checkout'){
 			steps{
 				echo "Cloning repo"
-				git url:"",
+				git url:"https://github.com/jyothi3025/devopsEXT.git",
 				branch:'master'
 			}
 		}
