@@ -11,7 +11,8 @@ pipeline{
 		stage('Build'){
 			steps{
 				echo "Build Docker Image"
-				bat "docker build -t mywebapp"
+				bat "docker build -t mywebapp ."
+"
 			}
 		}
 		stage('Run'){
